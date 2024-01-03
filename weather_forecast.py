@@ -29,6 +29,6 @@ def get_weather(api_key, city):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    api_key = "7baae53beebf6da70cc4c89463842396" ##"ENTER_YOUR_OPENWEATHERMAP_API_KEY"
+    api_key = "YOUR_API_KEY" ##"ENTER_YOUR_OPENWEATHERMAP_API_KEY"
     city = input("Enter the city name: ")
     get_weather(api_key, city)
